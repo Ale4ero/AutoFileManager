@@ -38,7 +38,7 @@ for file in allFiles:
     elif file.endswith('.mp3'):
         print("move to sound folder: "+file)
         shutil.move(filePath, soundDes)
-    elif file.endswith('.docx') or file.endswith('doc'):
+    elif file.endswith('.docx') or file.endswith('.doc'):
         print("move to doc folder: "+file)
         shutil.move(filePath, wordDes)
     elif file.endswith('.exe'):
