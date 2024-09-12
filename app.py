@@ -102,6 +102,8 @@ class FileMoverHandler(FileSystemEventHandler):
         self.scan_folder()
 
 
+
+
 # MAIN BLOCK
         # Initializes the Observer
         # assigns the FileMoverHandler to the Observer 
@@ -116,7 +118,7 @@ if __name__ == "__main__":
 
     try:
         print("----------------------------------------------------------------------------------------")
-        print("\t\t\tWELCOME TO FILE ORGANIZER\n")
+        print("\t\t\tWELCOME TO AUTO FILE MANAGER\n")
         print("Script will monitor the downloads folder, organizing files to desired folder locations.")
         print("----------------------------------------------------------------------------------------")
         print("\nScript will scan automatically when new file is added or you can scan manually.")
